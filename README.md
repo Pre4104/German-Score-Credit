@@ -54,11 +54,13 @@ weighted comparison.
 - `Capstone Project - German Credit.docx` — full written report with detailed EDA findings and fairness analysis
 
 ---
-## Author
-B S Lakshmi Prerana
-BTech AI & ML, UVCE Bengaluru (2024–2028)
----
 
+##Author
+
+B S Lakshmi Prerana
+BTech AIML, UVCE (2024-2028)
+
+---
 
 
 
