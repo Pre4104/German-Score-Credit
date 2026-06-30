@@ -35,8 +35,6 @@ Ranking models by raw accuracy or F1-Score points to **Random Forest**. Re-ranki
 **Takeaway:** the "best" model depends on what the bank actually cares about — model selection should follow the business cost structure, not accuracy in isolation.
 
 ## Responsible AI Notes
-
-- `is_foreign_worker` was kept in the model rather than dropped, since removing a sensitive feature doesn't remove the risk of proxy discrimination through correlated variables — the disparity is flagged with its sample-size caveat instead of acted on naively.
 - `status_and_sex` shows a real 8–13 point approval-rate spread but conflates two attributes into one column, limiting how precisely the disparity can be isolated.
 - Neither finding is conclusive on its own; a production deployment would need a formal fairness audit with a larger, better-balanced sample before this model informs real lending decisions.
 
@@ -47,9 +45,22 @@ pip install pandas numpy matplotlib scikit-learn kagglehub
 python loan_approval_capstone.py
 ```
 
-The script downloads the dataset via `kagglehub`, runs EDA prints, trains all four models, and outputs evaluation metrics, confusion matrices, and the cost-weighted comparison.
+The script downloads the dataset via `kagglehub`, runs EDA prints, trains all four models, and outputs evaluation metrics, confusion matrices, and the cost-
+weighted comparison.
 
 ## Files
 
 - `loan_approval_capstone.py` — full pipeline: data loading, EDA, preprocessing, modeling, evaluation
 - `Capstone Project - German Credit.docx` — full written report with detailed EDA findings and fairness analysis
+
+---
+## Author
+B S Lakshmi Prerana
+BTech AI & ML, UVCE Bengaluru (2024–2028)
+---
+
+
+
+
+
+
