@@ -57,8 +57,8 @@ weighted comparison.
 
 ## Author
 
-B S Lakshmi Prerana
-BTech AIML, UVCE (2024-2028)
+- B S Lakshmi Prerana
+- BTech AIML, UVCE (2024-2028)
 
 ---
 
